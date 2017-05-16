@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 public class CalculTest extends TestCase {
  private Calcul calcul;
 	protected void setUp() throws Exception {
-		super.setUp();
+		
 		calcul=new Calcul();
 	}
 	public void testSomme(){
@@ -14,7 +14,7 @@ public class CalculTest extends TestCase {
 	}
 	
 	public void testProduit(){
-		assertTrue(calcul.somme(5, 5)==10);
+		assertTrue(calcul.produit(5, 5)==25);
 		
 	}
 
