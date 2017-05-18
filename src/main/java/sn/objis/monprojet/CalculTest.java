@@ -16,6 +16,8 @@ public class CalculTest extends TestCase {
 	public void testProduit(){
 		assertTrue(calcul.produit(5, 5)==25);
 		
+		
+		
 	}
 
 }
