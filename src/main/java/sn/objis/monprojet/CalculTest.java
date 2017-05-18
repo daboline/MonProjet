@@ -4,17 +4,19 @@ import junit.framework.TestCase;
 
 public class CalculTest extends TestCase {
  private Calcul calcul;
-	protected void setUp() throws Exception {
-		
-		calcul=new Calcul();
-	}
+	@Override
+		protected void setUp() throws Exception {
+			// TODO Auto-generated method stub
+			super.setUp();
+			calcul =new Calcul();
+		}
 	public void testSomme(){
-		assertTrue(calcul.somme(5, 5)==10);
+		assertTrue(calcul.somme(4, 5)==9);
 		
 	}
 	
 	public void testProduit(){
-		assertTrue(calcul.produit(5, 5)==25);
+		assertTrue(calcul.produit(4, 5)==20);
 		
 		
 		
